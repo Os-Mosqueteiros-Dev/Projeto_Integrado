@@ -11,3 +11,8 @@ Buscando alinhar a proposta da solução com um nome e logo que faça sentido e 
 O prefixo Holo, vem da necessidade de uma visão Holística que busca uma visão de todo e o sufixo sync traz o entendimento de sincronia, ou seja, uma sincronia do todo.
 
 ![alt text](<logo PI-1.jpg>)
+
+# Mapa de funcionalidades
+A equipe levantou algumas funcionalidades que identificamos serem essenciais para o aplicativo.
+
+![alt text](Mapa-1.png)
