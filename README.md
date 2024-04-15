@@ -10,9 +10,9 @@ seja situações cotidianas, trabalho, vida estudantil.
 Buscando alinhar a proposta da solução com um nome e logo que faça sentido e traduza a intenção do projeto, a equipe pensou no nome HoloSync.
 O prefixo Holo, vem da necessidade de uma visão Holística que busca uma visão de todo e o sufixo sync traz o entendimento de sincronia, ou seja, uma sincronia do todo.
 
-![Logo do projeto](<logo PI-1.jpg>)
+![Logo do projeto](<logo PI.jpg>)
 
 # Mapa de funcionalidades
 A equipe levantou algumas funcionalidades que identificamos serem essenciais para o aplicativo.
 
-![Mapa de funcionalidades](Mapa-1.png)
+![Mapa de funcionalidades](Mapa.png)
