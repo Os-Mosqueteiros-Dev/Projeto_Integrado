@@ -1,0 +1,59 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-header {
+    background-color: #777;
+    color: #fff;
+}
+
+.btn-entrar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-entrar span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    /* margin-right: 0.7em; */
+}
+
+.btn-entrar img {
+    margin: 0 .5em;
+}
+
+main {
+    width: 1--vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd93b;
+}
+
+main img {
+    margin-top: 50px;
+
+}
+
+.banner {
+    height: 84vh;
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+}
+
+.footer {
+    height: 50px;
+    background-color: #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #fff;
+}
