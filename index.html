@@ -19,7 +19,7 @@
       <a class="navbar-brand" href="#">
         <img src="./assets/logo_2.png" alt="Logo" width="300" height="70" class="d-inline-block align-text-top">
       </a>
-      <a href="#" class="btn-entrar">
+      <a href="#" class="btn-entrar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         <span>Entrar</span>
         <img src="./assets/user_white.png" alt="Imagem de ícone de usuário" width="20" height="20">
       </a>
@@ -27,45 +27,46 @@
   </header>
   <main class="container-fluid">
     <div class="banner">
-      <img src="./assets/Bannner.png" alt="">
+      <img class="container-fluid" src="./assets/Bannner.png" alt="">
     </div>
   </main>
   <footer class="container-fluid footer">
     <a type="button" data-bs-toggle="modal" data-bs-target="#sobre">Sobre o HoloSync</a>
     <a type="button" data-bs-toggle="modal" data-bs-target="#fale-conosco">Fale conosco</a>
   </footer>
+  <!-- Modal Fale Conosco -->
   <div class="modal fade" id="fale-conosco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content" style="background-color: #ccc;">
+      <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Fale conosco</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form class="modal-body">
-            <h5>Qual o motivo do contato?</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Crítica
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Sugestão
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Report um bug
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-label" for="txtMensagem">Sua mensagem:</label>
-              <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="4" cols="100"></textarea>
-              <input class="btn btn-primary mt-3 mb-3" type="submit" name="btnSubmit" value="Enviar Mensagem">
-            </div>
+          <h5>Qual o motivo do contato?</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Crítica
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Sugestão
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Report um bug
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-label" for="txtMensagem">Sua mensagem:</label>
+            <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="4" cols="100"></textarea>
+            <input class="btn btn-primary mt-3 mb-3" type="submit" name="btnSubmit" value="Enviar Mensagem">
+          </div>
         </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -74,6 +75,7 @@
     </div>
   </div>
 
+  <!-- Modal About us -->
   <div class="modal fade" id="sobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -89,6 +91,37 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Login -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" class="row g-3 needs-validation">
+          <div class="modal-body">
+            <div class="form-input">
+              <label for="exampleFormControlInput1" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" required>
+              <div class="invalid-feedback">
+                Preencha o campo
+              </div>
+            </div>
+            <div class="form-input">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+              </label>
+            </div>
+            <div class="mt-3">
+              <button class="btn btn-primary">Login</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
