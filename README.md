@@ -16,3 +16,13 @@ O prefixo Holo, vem da necessidade de uma visão Holística que busca uma visão
 A equipe levantou algumas funcionalidades que identificamos serem essenciais para o aplicativo.
 
 ![Mapa de funcionalidades](Mapa.png)
+
+# Site map
+O fluxo de navegação do site foi definido pela equipe de desenvolvedores para que o usuário ao interagir com o app, possa acessar uma tela Home Page, em seguida é direcionado para a tela de cadastro / login e após a autenticação terá acesso ao aplicativo com a possibilidade de criar ou visualizar as tarefas.
+
+![sitemap](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/5ebac449-2c09-4b17-96bd-811ff031997a)
+
+# Fluxograma
+
+![FluxogramaPI_2](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/d496c6f2-80f8-4552-8633-95e7fe6cdbdd)
+
