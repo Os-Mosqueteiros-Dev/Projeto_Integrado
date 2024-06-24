@@ -56,5 +56,8 @@ O fluxo de navegação do site foi definido pela equipe de desenvolvedores para 
 - Criação de funcionalidade para Login / Registro de novo usuário
 - Desenvolvimento de um servidor para o banco de dados e gerenciamento de persistência remota
 
+  ## 📁 Acesso ao projeto
+ [HoloSync](https://os-mosqueteiros-dev.github.io/Projeto_Integrado/index.html)
+
 
 
