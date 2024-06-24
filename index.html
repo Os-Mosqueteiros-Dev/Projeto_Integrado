@@ -12,22 +12,26 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>HoloSync - Delegue tarefas e gerencie prazos</title>
 </head>
-
+<header class="navbar nav-header">
+  <div class="container-fluid logo-container">
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/logo_2.png" alt="Logo" width="300" height="70" class="d-inline-block align-text-top">
+    </a>
+    <a href="tasks.html" class="btn-entrar">
+      <span>Entrar</span>
+      <img src="./assets/user_white.png" alt="Imagem de ícone de usuário" width="20" height="20">
+    </a>
+  </div>
+</header>
 <body>
-  <header class="navbar nav-header">
-    <div class="container-fluid logo-container">
-      <a class="navbar-brand" href="#">
-        <img src="./assets/logo_2.png" alt="Logo" width="300" height="70" class="d-inline-block align-text-top">
-      </a>
-      <a href="#" class="btn-entrar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        <span>Entrar</span>
-        <img src="./assets/user_white.png" alt="Imagem de ícone de usuário" width="20" height="20">
-      </a>
-    </div>
-  </header>
-  <main class="container-fluid">
-    <div class="banner">
-      <img class="container-fluid" src="./assets/Bannner.png" alt="">
+  <main class="main-content container-fluid">
+    <div class="row">
+        <div class="banner">
+          <img class="container-fluid" src="./assets/background.jpg" alt="">
+      </div>
+      <div class="col-sm banner-mobile">
+        <img class="container-fluid" src="./assets/Banner_mobile.png" alt="">
+      </div>
     </div>
   </main>
   <footer class="container-fluid footer">
@@ -95,7 +99,7 @@
     </div>
   </div>
   <!-- Modal Login -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog ">
       <div class="modal-content">
@@ -124,7 +128,7 @@
         </form>
       </div>
     </div>
-  </div>
+  </div> -->
 </body>
 
 </html>
