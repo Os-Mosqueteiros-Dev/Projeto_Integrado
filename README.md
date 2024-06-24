@@ -13,8 +13,8 @@ Foi definido entre os integantes do grupo, dentre as opções disponíveis, a cr
 <p align="center"><img src="https://img.shields.io/badge/Git-E34F26?logo=git&logoColor=white&style=for-the-badge"></p>
 
 # Autores
-| [<img src="https://avatars.githubusercontent.com/u/161084316?v=4" width=115><br><sub>Douglas Bezerra</sub>](https://github.com/Douglas-Bezerra) | [<img src="https://github.com/fsancho1985.png" width=115><br><sub>Francisco de Souza Sancho</sub>](https://github.com/fsancho1985) | [<img src="https://avatars.githubusercontent.com/u/83102217?v=4" width=115><br><sub>Gustavo Macedo Pena</sub>](https://github.com/macedo99) |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/161084316?v=4" width=115><br><sub>Douglas Bezerra</sub>](https://github.com/Douglas-Bezerra) | [<img src="https://github.com/fsancho1985.png" width=115><br><sub>Francisco de Souza Sancho</sub>](https://github.com/fsancho1985) | [<img src="https://avatars.githubusercontent.com/u/83102217?v=4" width=115><br><sub>Gustavo Macedo Pena</sub>](https://github.com/macedo99) | [<img src="https://avatars.githubusercontent.com/u/161267071?v=4" width=115><br><sub>Igor Prereira</sub>](https://github.com/DevIgorPereira) |
+| :---: | :---: | :---: | :---: |
 
 # Desenvolvimento da Logo do projeto
 Para o desenvolvimento da logo, visando alinhamento com a proposta do projeto Lista de tarefas, entendendo que a proposta da lista é organizar a vida do usuário,
