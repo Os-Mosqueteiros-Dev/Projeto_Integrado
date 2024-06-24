@@ -25,6 +25,7 @@ function createTask(texto) {
     list.appendChild(li);
     clearInput();
     createDeleteButton(li);
+    createEditButton(li);
     saveTasks();
 };
 
@@ -34,7 +35,7 @@ function createLi() {
 };
 
 function createDeleteButton(li) {
-    li.innerText += ' ';
+    li.innerHTML += ' ';
     const btnDelete = document.createElement('button');
     btnDelete.innerText = "Apagar";
     btnDelete.setAttribute('class', 'delete');
@@ -42,12 +43,23 @@ function createDeleteButton(li) {
     li.appendChild(btnDelete);
 };
 
+// function createEditButton(li) {
+//     li.innerText += ' ';
+//     const btnEdit = document.createElement('button');
+//     btnEdit.innerText = "Editar";
+//     btnEdit.setAttribute('class', 'edit');
+//     btnEdit.setAttribute('title', "Editar esta tarefa!");
+//     li.appendChild(btnEdit);
+// };
+
 document.addEventListener('click', function(e) {
     const el = e.target;
     if(el.classList.contains('delete')) {
         el.parentElement.remove();
         saveTasks();
-    }
+    } /*else if (el.classList.contains('edit')) {
+        editTask(el.parentElement);
+    }*/
 });
 
 function saveTasks() {
@@ -56,7 +68,7 @@ function saveTasks() {
 
     for (let task of liTasks) {
         let taskText = task.innerText;
-        taskText = taskText.replace('Apagar', '').trim();
+        taskText = taskText.replace('Apagar', '').replace('Editar', '').trim();
         taskList.push(taskText);
     }
 
@@ -72,5 +84,15 @@ function addSavedTasks() {
         createTask(task);
     }
 }
+
+// function editTask(li) {
+//     const currentText = li.firstChild.textContent.trim();
+//     const newText = prompt('Editar tarefa: ', currentText);
+
+//     if(newText !== null) {
+//         li.firstChild.textContent = newText;
+//         saveTasks();
+//     }
+// }
 
 addSavedTasks();
