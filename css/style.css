@@ -117,6 +117,13 @@ li:nth-child(even) {
     color: #fff;
 }
 
+.img-modal-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 908px) {
 .banner img {
     display: none;
