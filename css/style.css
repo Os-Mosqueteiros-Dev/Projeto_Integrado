@@ -47,9 +47,37 @@
 }
 
 .tasks {
-    height: 79vh;
+    height: 100vh;
     background-color: #ffd93b;
     padding: 1.5em;
+}
+
+.tasks-list {
+    margin-top: 1.5em;
+    padding: .5em;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: .8em;
+    border-radius: 5px;
+}
+
+li:nth-child(odd) {
+    background-color: #D9D9D9;
+}
+
+li:nth-child(even) {
+    background-color: #fff;
+}
+
+.delete {
+    border-radius: 8px;
+    outline: none;
+    border: none;
 }
 
 .btn-add {
