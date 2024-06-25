@@ -74,11 +74,11 @@ li:nth-child(even) {
     background-color: #fff;
 }
 
-.delete {
+.edit {
     margin-left: auto;
 }
 
-.edit {
+.delete {
     margin-left: 1.1em;
 }
 
