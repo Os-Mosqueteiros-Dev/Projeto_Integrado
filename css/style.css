@@ -75,6 +75,14 @@ li:nth-child(even) {
 }
 
 .delete {
+    margin-left: auto;
+}
+
+.edit {
+    margin-left: 1.1em;
+}
+
+.delete, .edit {
     border-radius: 8px;
     outline: none;
     border: none;

@@ -43,23 +43,23 @@ function createDeleteButton(li) {
     li.appendChild(btnDelete);
 };
 
-// function createEditButton(li) {
-//     li.innerText += ' ';
-//     const btnEdit = document.createElement('button');
-//     btnEdit.innerText = "Editar";
-//     btnEdit.setAttribute('class', 'edit');
-//     btnEdit.setAttribute('title', "Editar esta tarefa!");
-//     li.appendChild(btnEdit);
-// };
+function createEditButton(li) {
+    li.innerHTML += ' ';
+    const btnEdit = document.createElement('button');
+    btnEdit.innerText = "Editar";
+    btnEdit.setAttribute('class', 'edit');
+    btnEdit.setAttribute('title', "Editar esta tarefa!");
+    li.appendChild(btnEdit);
+};
 
 document.addEventListener('click', function(e) {
     const el = e.target;
     if(el.classList.contains('delete')) {
         el.parentElement.remove();
         saveTasks();
-    } /*else if (el.classList.contains('edit')) {
+    } else if (el.classList.contains('edit')) {
         editTask(el.parentElement);
-    }*/
+    }
 });
 
 function saveTasks() {
@@ -85,14 +85,14 @@ function addSavedTasks() {
     }
 }
 
-// function editTask(li) {
-//     const currentText = li.firstChild.textContent.trim();
-//     const newText = prompt('Editar tarefa: ', currentText);
+function editTask(li) {
+    const currentText = li.firstChild.textContent.trim();
+    const newText = prompt('Editar tarefa: ', currentText);
 
-//     if(newText !== null) {
-//         li.firstChild.textContent = newText;
-//         saveTasks();
-//     }
-// }
+    if(newText !== null) {
+        li.firstChild.textContent = newText;
+        saveTasks();
+    }
+}
 
 addSavedTasks();
