@@ -54,9 +54,8 @@ O fluxo de navegação do site foi definido pela equipe de desenvolvedores para 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
 - Adição de funcionalidade para classificaçao da prioridade da tarefa
-- Adição de funcionalidaed para adição de prazo para cada tarefa
+- Adição de funcionalidade para adição de prazo para cada tarefa
 - Adição de funcionalidade para monitoramento do prazo de cada tarefa
-- Adição de funcionalidade para edição das tarefas já existentes
 - Criação de funcionalidade para Login / Registro de novo usuário
 - Desenvolvimento de um servidor para o banco de dados e gerenciamento de persistência remota
 
