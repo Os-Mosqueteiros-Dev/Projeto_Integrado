@@ -44,12 +44,7 @@ O fluxo de navegação do site foi definido pela equipe de desenvolvedores para 
   ![HoloSync_Home](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/b364d1e3-0e69-4782-b541-5d397fe2280a)
   
 - Tela de Tarefas
-  ![HoloSync_Tela_Tasks](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/246c53a2-41bc-4f59-b502-1f09364991d9)
-
-  
-- funcionalidade de deleção de tarefas
-  ![HoloSync_Tela_tarefas_2](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/2f20f1b0-a46e-485e-87a2-54da62e8e852)
-
+  ![HoloSync_Tela_tarefas_2](https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/6a5c1b3b-8de6-4230-b761-8af072adc7c1)
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
