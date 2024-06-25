@@ -24,8 +24,8 @@ function createTask(texto) {
     li.innerHTML = texto; 
     list.appendChild(li);
     clearInput();
-    createDeleteButton(li);
     createEditButton(li);
+    createDeleteButton(li);
     saveTasks();
 };
 
