@@ -57,5 +57,7 @@ O fluxo de navegação do site foi definido pela equipe de desenvolvedores para 
   ## 📁 Acesso ao projeto
   [HoloSync - Delegue Tarefas e Gerencie Prazos](https://os-mosqueteiros-dev.github.io/Projeto_Integrado/index.html)
 
-
+<div align="center">
+  <img src="https://github.com/Os-Mosqueteiros-Dev/Projeto_Integrado/assets/77301081/fa33107d-8194-45bd-a8d9-6acfba13947d" width="200">
+</div>
 
